@@ -1,7 +1,10 @@
 body{
-    background-color: gray;
+    background-color: #808080;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: crimson;
+    display: flex;
+    flex-direction: column;
+    
     
 }
 h2{
@@ -16,11 +19,22 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #9b9b9b;
     font-size: 30px;
+    border: 3px solid ;
+    border-color: #9b9b9b;
+    border-radius: 25px;
+    margin: 0 15% 0 15%;
 }
+.conteiner ul{
+    list-style: none;
+}
+
+
 input{
     width: 50px;
     height: 30px;
+   
 }
 
 input.concluir{
@@ -28,10 +42,6 @@ input.concluir{
 }
 
 
-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+#butao{
+   margin: 202px 0 0 5px;
 }
